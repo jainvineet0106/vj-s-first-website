@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>V.J's programmes</title>
+        <style>
+            
+             .Header{
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                margin-bottom: 30px;
+                
+                
+            } 
+            .contact-programmes{
+                color: red;
+                margin-right: 30px;
+                display:flex;
+                flex-direction:row-reverse;
+                
+
+            }
+            
+            .click:hover,
+            .Heading:hover,
+            .Heading2:hover{
+                text-decoration: underline;
+                color: green;
+                                                         
+            }
+            .click{
+                margin-right: 10px;
+                transition: box-shadow 1s;
+            }
+            .Heading,.Heading2{
+                text-align: center;
+                box-shadow: 10px 10px 10px;
+            }
+            .Topic{
+                text-align: center;
+                margin-top: 60px;
+            }
+            .img,.merry{
+                width: 225px;
+                height: 150px;
+                opacity: 0.6;
+            }
+            .img:hover
+            ,.merry:hover{
+                opacity: 1;
+                display: ruby-base;
+            }
+            .img{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                display: inline;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <div class="Header">
+                <div>
+                    <div class="logo">V.J</div>
+                </div>
+                
+                <div class="contact-programmes">
+                    <div>
+                        <a class="click">
+                            contact
+                        </a>
+                    </div>
+                    <div>
+                        <a class="click" href="#link1">
+                            programmes
+                        </a>
+                    </div>                              
+                </div>
+            </div>
+        </div>
+        
+         <!-- uper header hai -->
+        <div class="Topic">
+            <div>
+                <h1 class="Heading">Python programmes</h1>
+                <img class="img" src="python logo1.jpg">
+                <img class="img" src="python logo2.jpg">
+                <img class="img" src="python logo3.jpg">
+                <p>
+                    There is many programmesin python. 
+                    You see hear 
+                </p>
+            </div>
+            <div>
+                <h2 class="Heading2">
+                    <a name="link1">programmes</a>
+                </h2>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="#link2">Calender Program</a>
+                        </li>
+                        <li>
+                            <a href="#link3">Merry Christmas programe</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <h2 class="Heading">
+                    <a name="link2">Calender programe</a>
+                </h2>
+                <p></p>
+            </div>
+            <div>
+                <h2 class="Heading">
+                    <a name="#link3">Merry Christmas programe</a>
+                </h2>
+                <p>This is the code of Merry Christmas.
+                    By this code you make a beautiful wishes for
+                    your friends... 
+                    <p>Output of this code is...</p> 
+                    <img class="img" src="merry.png">
+                </p>
+            </div>
+        </div>
+                            
+    </body>
+</html>
